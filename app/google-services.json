@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "200874608069",
+    "project_id": "project-android-fde93",
+    "storage_bucket": "project-android-fde93.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200874608069:android:b023eeedaccc39788f37ac",
+        "android_client_info": {
+          "package_name": "com.example.hansungmarket"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0YhHC-9X9a0WQYGViqeybEDCObnknUME"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
