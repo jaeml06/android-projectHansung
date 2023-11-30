@@ -4,16 +4,16 @@
     <item
         android:id="@+id/navigation_sale"
         android:icon="@drawable/baseline_list_24"
-        android:title="@string/title_sale" />
+        android:title="@string/ts" />
 
     <item
         android:id="@+id/navigation_chat_room"
         android:icon="@drawable/baseline_message_24"
-        android:title="@string/title_chat_room" />
+        android:title="@string/tc" />
 
     <item
         android:id="@+id/navigation_profile"
         android:icon="@drawable/baseline_profile_24"
-        android:title="@string/title_profile" />
+        android:title="@string/tp" />
 
 </menu>

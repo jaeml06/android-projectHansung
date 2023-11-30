@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presenter.signUp.SignUpActivity">
+    tools:context=".control.signUp.SignUpActivity">
 
     <LinearLayout
         android:id="@+id/signUp_layout"
@@ -77,7 +77,7 @@
                 android:id="@+id/confirmPassword"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/confirmPassword"
+                android:hint="@string/cp"
                 android:inputType="textPassword"
                 android:maxLines="1"
                 tools:ignore="Autofill,TextFields" />

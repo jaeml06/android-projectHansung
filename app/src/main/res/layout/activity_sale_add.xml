@@ -5,7 +5,7 @@
     android:id="@+id/posting_root"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presenter.main.fragment.sale.addupdate.SaleAddActivity">
+    tools:context=".control.main.fragment.sale.update.SaleAddActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/postingToolBar"
@@ -33,7 +33,7 @@
             style="?attr/textAppearanceHeadlineSmall"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/write_post"
+            android:text="@string/sp"
             android:textColor="?attr/colorOnBackground"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintStart_toEndOf="@+id/back_button"
@@ -80,7 +80,7 @@
                     android:id="@+id/title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/input_title"
+                    android:hint="@string/inputT"
                     tools:ignore="Autofill,LabelFor,TextFields" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -90,7 +90,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="140dp"
-                android:text="@string/image"
+                android:text="@string/img"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -100,7 +100,7 @@
                 android:layout_width="120dp"
                 android:layout_height="120dp"
                 android:layout_marginStart="145dp"
-                android:contentDescription="@string/image"
+                android:contentDescription="@string/img"
                 android:padding="20dp"
                 android:scaleType="centerCrop"
                 android:src="@drawable/baseline_add_a_photo_24"
@@ -132,7 +132,7 @@
                     android:id="@+id/content"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/input_content"
+                    android:hint="@string/inputC"
                     tools:ignore="Autofill,LabelFor,TextFields" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -144,7 +144,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="30dp"
-                android:text="@string/cost"
+                android:text="@string/CC"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/contentInputLayout" />
 
@@ -162,7 +162,7 @@
                     android:id="@+id/cost"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:hint="@string/input_cost"
+                    android:hint="@string/inputCC"
                     tools:ignore="Autofill,LabelFor,TextFields" />
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -174,7 +174,7 @@
                 android:layout_marginStart="20dp"
                 android:layout_marginTop="30dp"
                 android:layout_marginEnd="20dp"
-                android:text="@string/create_post_button_text"
+                android:text="@string/upload"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/costInputLayout" />

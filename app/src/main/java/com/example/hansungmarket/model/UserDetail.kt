@@ -1,8 +1,8 @@
 package com.example.hansungmarket.model
 
 data class UserDetail(
-    val uuid: String,
+    val id: String,
     val name: String,
     val email: String?,
-    val profileImageUrl: String?
+    val profileImgUrl: String?
 ) : java.io.Serializable

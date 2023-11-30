@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presenter.main.fragment.profile.ProfileFragment">
+    tools:context=".control.main.fragment.profile.ProfileFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/constraintLayout"
@@ -44,7 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="40dp"
         android:layout_marginStart="50dp"
-        android:text="@string/profile_update"
+        android:text="@string/updP"
         app:layout_constraintBaseline_toBaselineOf="@+id/logout_button"
         app:layout_constraintStart_toStartOf="parent" />
 

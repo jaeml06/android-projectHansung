@@ -3,14 +3,14 @@
 
     <item
         android:id="@+id/delete"
-        android:title="@string/delete" />
+        android:title="@string/yesd" />
 
     <item
         android:id="@+id/update"
-        android:title="@string/update" />
+        android:title="@string/yese" />
 
     <item
         android:id="@+id/salePossible"
-        android:title="@string/change_sale_state"/>
+        android:title="@string/cngState"/>
 
 </menu>

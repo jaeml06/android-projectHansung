@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/navigation_sale"
-        android:name="com.example.hansungmarket.presenter.main.fragment.sale.SaleFragment"
-        android:label="@string/title_sale"
+        android:name="com.example.hansungmarket.control.main.fragment.sale.SaleFragment"
+        android:label="@string/ts"
         tools:layout="@layout/fragment_sale" />
 
     <fragment
         android:id="@+id/navigation_chat_room"
-        android:name="com.example.hansungmarket.presenter.main.fragment.chatroom.ChatRoomFragment"
-        android:label="@string/title_chat_room"
+        android:name="com.example.hansungmarket.control.main.fragment.chatroom.room.ChatRoomFragment"
+        android:label="@string/tc"
         tools:layout="@layout/fragment_chat_room" />
 
     <fragment
         android:id="@+id/navigation_profile"
-        android:name="com.example.hansungmarket.presenter.main.fragment.profile.ProfileFragment"
-        android:label="@string/title_profile"
+        android:name="com.example.hansungmarket.control.main.fragment.profile.ProfileFragment"
+        android:label="@string/tp"
         tools:layout="@layout/fragment_profile" />
 </navigation>

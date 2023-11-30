@@ -3,12 +3,12 @@ package com.example.hansungmarket.data.dto
 import java.util.Date
 
 data class SaleDto(
-    val uuid: String = "",
+    val id: String = "",
     val title: String = "",
-    val cost: Long = 0,
+    val price: Long = 0L,
     val content: String = "",
     val imageUrl: String = "",
-    val writerUuid: String = "",
-    val time: Date = Date(),
-    val possibleSale: Boolean = true
+    val sellerId: String = "",
+    val postTime: Date = Date(),
+    val available: Boolean = true
 )

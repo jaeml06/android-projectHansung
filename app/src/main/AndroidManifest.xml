@@ -17,31 +17,31 @@
         tools:targetApi="31">
 
         <activity
-            android:name=".presenter.main.fragment.profile.profileupdate.ProfileUpdateActivity"
+            android:name=".control.main.fragment.profile.profileupdate.ProfileUpdateActivity"
             android:exported="false" />
         <activity
-            android:name=".presenter.signUp.UserInfoActivity"
+            android:name=".control.signUp.UserInfoActivity"
             android:exported="false" />
         <activity
-            android:name=".presenter.main.fragment.sale.addupdate.SaleAddActivity"
+            android:name=".control.main.fragment.sale.update.SaleAddActivity"
             android:exported="false" />
         <activity
-            android:name=".presenter.main.fragment.sale.detail.SaleDetailActivity"
+            android:name=".control.main.fragment.sale.detail.SaleDetailActivity"
             android:exported="false" />
         <activity
-            android:name=".presenter.signUp.WelcomeActivity"
+            android:name=".control.signUp.WelcomeActivity"
             android:exported="false" />
         <activity
-            android:name=".presenter.main.MainActivity"
+            android:name=".control.main.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".presenter.main.fragment.chatroom.chatting.ChattingActivity"
+            android:name=".control.main.fragment.chatroom.chat.ChattingActivity"
             android:exported="false" />
         <activity
-            android:name=".presenter.signUp.SignUpActivity"
+            android:name=".control.signUp.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".presenter.login.LoginActivity"
+            android:name=".control.signIn.SignInActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

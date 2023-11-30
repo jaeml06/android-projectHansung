@@ -1,15 +1,15 @@
 package com.example.hansungmarket.model
 
 data class Sale(
-    val uuid: String,
+    val id: String,
     val title: String,
-    val writerUuid: String,
-    val writerName: String,
-    val writerProfileImageUrl: String?,
+    val sellerId: String,
+    val sellerName: String,
+    val sellerProfileImgUrl: String?,
     val content: String,
     val imageUrl: String,
-    val isMine: Boolean,
-    val time: String,
-    val cost: Long,
-    val possibleSale: Boolean
+    val M: Boolean,
+    val postTime: String,
+    val price: Long,
+    val available: Boolean
 )
